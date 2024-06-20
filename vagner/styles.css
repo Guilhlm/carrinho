@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.fundo-centro {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#header-compra {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#header-compra h1 {
+    font-size: 50px;
+    color: #ffa500;
+    border-bottom: 1px solid #444;
+    padding-bottom: 50px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: 80px 1fr 100px;
+    gap: 10px;
+    padding: 10px;
+    background-color: #444;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-details {
+    padding: 0 10px;
+}
+
+.product-details h2 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.product-details p {
+    font-size: 0.9em;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 1.1em;
+    color: #ffa500;
+}
+
+.product-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-quantity {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #F37B00;
+    color: #fff;
+    border-radius: 40px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.add-button,
+.remove-button {
+    padding: 5px 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-button {
+    background-color: #177e2f;
+    color: #fff;
+}
+
+.add-button:hover{
+    background-color: #015013;
+}
+
+.remove-button {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.remove-button:hover{
+    background-color: #4e0209
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.total span {
+    font-size: 1.5em;
+    color: #ffa500;
+}
+
+.finalize-button {
+    padding: 10px 20px;
+    background-color: #177e2f;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.finalize-button:hover {
+    background-color: #015013;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #ffa500;
+}
+
+.cabeçalho .menu li a {
+    font-family: "Croissant One", serif;
+    font-size: 18px;
+    padding: 10px 40px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 2px solid #ffa500;
+    background-color: rgb(53, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.cabeçalho .menu li a:hover {
+    background-color: #754c00; 
+    border: 2px solid #ffffff;
+    text-decoration: none;
+}
+
+.select-opcoes {
+    position: absolute;
+    display: none;
+}
+
+.select-opcoes a {
+    display: block;
+}
+
+.select-principal:hover .select-opcoes {
+    display: block;
+    padding-top: 20px;
+    /* fasz o ngc q eu qro no menu */
+    padding-left: 1px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100vh;
+    height: 200px;
+    background: linear-gradient(155deg, rgb(53, 0, 0) 30%, rgb(0, 0, 0));
+    /* banner */
+    width: 100%;
+    border-bottom: 3px solid #ffa500;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    width: 100%;
+    height: 135px;
+    background: linear-gradient(145deg, rgb(73, 0, 0) 20%, rgb(0, 0, 0));
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+#foto-produto {
+    height: 130px;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+}
+
+#centrarProduto {
+    align-items: flex-start;
+    padding-top: 30px;
+}
+
+.bg-color1 {
+    background-color: #414141;
+}
+
+.bg-color2 {
+    background-color: #414141;
+}
