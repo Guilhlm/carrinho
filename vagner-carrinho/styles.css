@@ -34,7 +34,7 @@ body {
     font-size: 50px;
     color: #ffa500;
     border-bottom: 1px solid #444;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 main {
@@ -98,7 +98,7 @@ main {
 
 .add-button,
 .remove-button {
-    padding: 5px 10px;
+    padding: 6px 20px;
     margin: 5px 0;
     border: none;
     border-radius: 5px;
@@ -141,13 +141,14 @@ footer {
 }
 
 .total span {
-    font-size: 1.5em;
+    font-size: 25px;
     color: #ffa500;
 }
 
 .finalize-button {
-    padding: 10px 20px;
+    padding: 10px 40px;
     background-color: #177e2f;
+    font-size: 15px;
     border: none;
     border-radius: 10px;
     color: #fff;
@@ -178,8 +179,7 @@ footer {
 }
 
 .cabeçalho .menu li a:hover {
-    background-color: #754c00; 
-    border: 2px solid #ffffff;
+    background-color: #754c00;
     text-decoration: none;
 }
 
