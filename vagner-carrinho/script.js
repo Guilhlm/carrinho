@@ -27,9 +27,9 @@ function atualizaCarrinho() {
     carrinho.forEach((item) => {
         total += item.valor * item.qtd;
 
-        const productQuantitySpan = document.querySelector(`.product-quantity[data-product="${item.produto}"]`);
-        if (productQuantitySpan) {
-            productQuantitySpan.innerText = `${item.qtd}x`;
+        const produtoQuantitySpan = document.querySelector(`.produto-quantidade[data-produto="${item.produto}"]`);
+        if (produtoQuantitySpan) {
+            produtoQuantitySpan.innerText = `${item.qtd}x`;
         }      
         
     });

@@ -34,43 +34,57 @@
                 <h1>Carrinho</h1>
             </section>
             <main>
-                <div class="product">
-                    <div class="product-image"><img src="logo2.png" alt="Produto 1"></div>
-                    <div class="product-details">
+                <div class="produto">
+                    <div class="produto-imagem"><img src="logo2.png" alt="Produto 1"></div>
+                    <div class="produto-detalhes">
                         <h2>Nome do produto 1</h2>
                         <p>Descrição adaptada aqui. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <span class="product-price">Valor: R$ 240,68</span>
+                        <span class="produto-preco">Valor: R$ 240,68</span>
                     </div>
-                    <div class="product-actions">
-                        <span class="product-quantity" data-product="Produto 1">0x</span>
+                    <div class="produto-acao">
+                        <span class="produto-quantidade" data-produto="Produto 1">0x</span>
                         <button class="add-button" onclick="addCarrinho('Produto 1', 240.68)">Adicionar</button>
                         <button class="remove-button" onclick="removeItemCarrinho('Produto 1')">Remover</button>
                     </div>
                 </div>
 
-                <div class="product">
-                    <div class="product-image"><img src="logo2.png" alt="Produto 2"></div>
-                    <div class="product-details">
+                <div class="produto">
+                    <div class="produto-imagem"><img src="logo2.png" alt="Produto 2"></div>
+                    <div class="produto-detalhes">
                         <h2>Nome do produto 2</h2>
                         <p>Descrição adaptada aqui. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <span class="product-price">Valor: R$ 150,00</span>
+                        <span class="produto-preco">Valor: R$ 150,00</span>
                     </div>
-                    <div class="product-actions">
-                        <span class="product-quantity" data-product="Produto 2">0x</span>
+                    <div class="produto-acao">
+                        <span class="produto-quantidade" data-produto="Produto 2">0x</span>
                         <button class="add-button" onclick="addCarrinho('Produto 2', 150.00)">Adicionar</button>
                         <button class="remove-button" onclick="removeItemCarrinho('Produto 2')">Remover</button>
                     </div>
                 </div>
 
-                <div class="product">
-                    <div class="product-image"><img src="logo2.png" alt="Produto 3"></div>
-                    <div class="product-details">
+                <div class="produto">
+                    <div class="produto-imagem"><img src="logo2.png" alt="Produto 3"></div>
+                    <div class="produto-detalhes">
                         <h2>Nome do produto 3</h2>
                         <p>Descrição adaptada aqui. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <span class="product-price">Valor: R$ 99,90</span>
+                        <span class="produto-preco">Valor: R$ 99,90</span>
                     </div>
-                    <div class="product-actions">
-                        <span class="product-quantity" data-product="Produto 3">0x</span>
+                    <div class="produto-acao">
+                        <span class="produto-quantidade" data-produto="Produto 3">0x</span>
+                        <button class="add-button" onclick="addCarrinho('Produto 3', 99.90)">Adicionar</button>
+                        <button class="remove-button" onclick="removeItemCarrinho('Produto 3')">Remover</button>
+                    </div>
+                </div>
+
+                <div class="produto">
+                    <div class="produto-imagem"><img src="logo2.png" alt="Produto 3"></div>
+                    <div class="produto-detalhes">
+                        <h2>Nome do produto 3</h2>
+                        <p>Descrição adaptada aqui. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <span class="produto-preco">Valor: R$ 99,90</span>
+                    </div>
+                    <div class="produto-acao">
+                        <span class="produto-quantidade" data-produto="Produto 3">0x</span>
                         <button class="add-button" onclick="addCarrinho('Produto 3', 99.90)">Adicionar</button>
                         <button class="remove-button" onclick="removeItemCarrinho('Produto 3')">Remover</button>
                     </div>
@@ -81,7 +95,7 @@
                 <div class="total">
                     <div id="carrinho-itens"></div>
                     <span>Total: R$ <span id="carrinho-total">0.00</span></span>
-                    <button class="finalize-button" onclick="fecharPedido()">Finalizar</button>
+                    <button class="finalizar-button" onclick="fecharPedido()">Finalizar</button>
                 </div>
             </footer>
         </div>
